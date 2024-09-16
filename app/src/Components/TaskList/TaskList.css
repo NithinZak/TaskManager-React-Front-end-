@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+.container{
+    /* background-color: aliceblue; */
+    padding-left: 10px;
+}
+
+.task-List-Head{
+    margin-bottom: 20px;
+}
+
+.title-TaskList{
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.main-right-tasks-item{
+    /* background-color: red; */
+    height: 100px;
+    padding: 10px;
+    box-shadow: 1px 1px 20px  rgba(128, 128, 128, 0.234);
+    border-radius: 5px;
+    border: 0px transparent;
+    margin-bottom: 15px;
+}
+
+.main-right-tasks-item:hover{
+    /* background-color: red; */
+    
+    border: 1px solid grey;
+}
+
+
+
+.check-done{
+    width: 30px;
+    height: 20px;
+}
+

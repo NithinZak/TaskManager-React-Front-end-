@@ -1,0 +1,86 @@
+/* Container for the registration form */
+.registration-container {
+    width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling form fields */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Error styles */
+  .input-error {
+    border-color: red;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 12px;
+  }
+  
+  /* Button styling */
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4A7BFB;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #567eff;
+  }
+  
+  /* Status message */
+  .status-message {
+    text-align: center;
+    margin-top: 20px;
+    color: green;
+    font-weight: bold;
+  }
+
+  .div-register-link {
+    display: flex;          
+    justify-content: center;
+    align-items: center;    
+    padding-left: 45%;   
+    padding-top: 10px;     
+  }
+  
+  .div-register-link a {
+    text-decoration: none; 
+    color: #000;         
+    font-size: 16px; 
+    transition-duration: 0.3s;  
+    transition-timing-function: ease-in-out; 
+  }
+  
+  .div-register-link a:hover {
+    color: blue;          
+  
+  }
+  

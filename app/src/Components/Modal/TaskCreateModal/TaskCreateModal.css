@@ -1,0 +1,65 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+.TaskCreateModal-Container{
+    width: 100%;
+    height: fit-content;
+    padding: 20px;
+    box-shadow: 1px 1px 20px  rgba(128, 128, 128, 0.234);
+    border-radius: 5px;
+    border: 0px transparent;
+    margin-bottom: 15px;
+}
+  
+.TaskCreateModal-input-fields{
+    display: flex;
+    background-color: aliceblue;
+    max-width: 80%;
+    
+}
+
+.TaskCreateModal-heading{
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.TaskCreateModal-field{
+    margin-top: 10px;
+    /* margin-left: 1px; */
+}
+
+.TaskCreateModal-btn{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    
+    justify-content: end;
+    margin-right: 100px;
+}
+
+.TaskCreateModal-btn-close{
+    border: 2px solid gray;
+}
+
+.TaskCreateModal-btn-close:hover{
+    border: 2px solid rgb(50, 50, 50);
+    background-color: rgb(50, 50, 50);
+    color: white;
+}
+
+.TaskCreateModal-btn-save{
+    border: 2px solid rgba(74, 123, 251, 1);
+    margin-right: 2%;
+   
+}
+
+.TaskCreateModal-btn-save:hover{
+    border: 2px solid rgba(74, 123, 251, 1);
+    background-color: rgba(74, 123, 251, 1);
+    color: white;
+}

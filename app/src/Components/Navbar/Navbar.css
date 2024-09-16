@@ -1,0 +1,48 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  
+
+.nav-center{
+  display: flex;
+  gap: 5px;
+}
+ 
+.side-padding{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btn-common{
+  width: 100px;
+}
+
+.btn-logout{
+  margin-right: -10px;
+}
+
+#Heading{
+  font-size:x-large;
+  font-weight: 600;
+  padding: 0px;
+  
+}
+
+.nav-right{
+  width: min-content;
+}
+
+.div-heading{
+  display: flex;
+  align-items: center;
+
+}
+
+hr{
+  width: 90%;
+}
